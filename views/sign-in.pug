@@ -1,0 +1,12 @@
+html
+	head
+		title!= title
+	body
+		h1 Вход
+		.container
+			form(action="login" method="POST")
+				input(placeholder="Логин" name="login")
+				br
+				input(placeholder="Пароль" name="password")
+				br
+				button(type="submit" name="do-login") Войти

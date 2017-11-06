@@ -1,0 +1,16 @@
+html
+	head
+		title!= title
+	body
+		h1 Вход
+		.container
+			form(action="signup" method="POST")
+				input(placeholder="Логин" name="login")
+				br
+				input(placeholder="Пароль" name="password")
+				br
+				input(placeholder="Имя" name="name")
+				br
+				input(placeholder="Фамилия" name="surname")
+				br
+				button(type="submit" name="do-login") Зарегистрироваться
