@@ -2,7 +2,11 @@ let md5     = require('md5');
 
 module.exports = (app, db) => {
 	app.get('/signup', (req, res) => {
-		 res.render('sign-up', { title: 'sign-up page'});
+		if ( req.session.userData ){
+			res.redirect('/login');
+		} else{
+			res.render('sign-up', { title: 'sign-up page'});
+		}
 	})
 	app.post('/signup', (req, res) => {
 		let data = {
@@ -12,7 +16,7 @@ module.exports = (app, db) => {
 			surname: req.body.surname
 		};
 		db.Users.create(data)
-			.then(data => res.send(data))
+			.then(data => res.redirect('/login'))
 			.catch( err => res.send("ERROR!"));
 	})
 }

@@ -3,8 +3,7 @@ let md5 = require('md5');
 module.exports = (app, db) => {
 	app.get('/login', (req, res) => {
 		if ( req.session.userData ){
-			let data = req.session.userData;
-			res.send(`Hello ${data.name}`);
+			res.redirect('/home');
 		} else{
 			res.render('sign-in', { title: 'login page'});
 		}
@@ -18,7 +17,7 @@ module.exports = (app, db) => {
 		db.Users.search(data.login, data.password)
 			.then(data => {
 				req.session.userData = data;
-				res.send(req.session.userData._id);
+				res.redirect('/home');
 			})
 			.catch(err => res.send("ERROR!"));
 

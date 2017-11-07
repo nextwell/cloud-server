@@ -32,6 +32,7 @@ app.use(bodyParser.urlencoded({
 })); 
 
 app.use(session(sessionOpt));
+app.use(express.static('public_files'));	// Public access
 
 requireFu(__dirname + '/routes')(app, db);
 
