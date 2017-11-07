@@ -1,3 +1,6 @@
+//----------------------------------------------------------------------------------------
+// Home page ( in-action page / React )
+
 module.exports = (app, db) => {
 	app.get('/home', (req, res) => {
 		if ( req.session.userData ){

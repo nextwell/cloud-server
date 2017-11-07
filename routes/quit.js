@@ -1,3 +1,6 @@
+//----------------------------------------------------------------------------------------
+// Quit page / Destroy session
+
 module.exports = (app, db) => {
 	app.get('/quit', (req, res) => {
 		if ( req.session.userData ){
