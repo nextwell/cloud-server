@@ -1,9 +1,9 @@
-let express    = require('express'),
-	pug 	   = require('pug'),
-	requireFu  = require('require-fu'),
-	fs		   = require('fs'),
-	session    = require('express-session'),
-	bodyParser = require('body-parser');
+let express       = require('express'),
+	pug 	      = require('pug'),
+	requireFu     = require('require-fu'),
+	fs		      = require('fs'),
+	session       = require('express-session'),
+	bodyParser 	  = require('body-parser');
 	
 //----------------------------------------------------------------------------------------
 // Option config
@@ -18,10 +18,14 @@ let cfg = JSON.parse(fileContents);
 let db = require('./database/utils/DataBaseUtils.js');
 db.setUpConnection();
 
-let sessionOpt = {
+/*let sessionOpt = {
   secret: 'skey',
   cookie: {}
-}
+}*/
+
+let sessionMiddleware = session({
+    secret: "keyboard cat"
+});
 
 let app = express();
 app.set('view engine', 'pug');
@@ -31,7 +35,9 @@ app.use(bodyParser.urlencoded({
   extended: true
 })); 
 
-app.use(session(sessionOpt));
+
+app.use(sessionMiddleware);
+
 app.use(express.static('public_files'));	// Public access
 
 requireFu(__dirname + '/routes')(app, db);
@@ -39,3 +45,17 @@ requireFu(__dirname + '/routes')(app, db);
 app.listen(cfg['PORT'], () => {
   console.log(`Express server running on port ${cfg['PORT']}!`);
 });
+
+//----------------------------------------------------------------------------------------
+// Socket.io Settings
+
+let server = require('http').Server(app);
+let io = require("socket.io")(server);
+
+io.use(function(socket, next) {
+    sessionMiddleware(socket.request, socket.request.res, next);
+});
+
+requireFu(__dirname + '/sockets')(io, db);		// require all sockets
+
+server.listen(8081);
