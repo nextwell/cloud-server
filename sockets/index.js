@@ -1,7 +1,8 @@
 //----------------------------------------------------------------------------------------
 // Socket.io index action module
 let SocketIOFileUpload = require('socketio-file-upload'),
-	fs 				   = require('fs');
+	fs 				   = require('fs'),
+	FileManipulator    = require('../modules/FileManipulator.js');
 
 module.exports = (io, db) => {
 
@@ -12,6 +13,7 @@ module.exports = (io, db) => {
 
 	    uploader.on("saved", function(event){
 	        console.log("File successfully loaded");
+	        //FileManipulator.compress(event.file.pathName);
 	    });
 
 	    // Error handler:
