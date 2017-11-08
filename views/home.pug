@@ -1,8 +1,16 @@
 doctype html
 html
-  head
-    title #{title}
-    include layouts/header.pug
-  body
-    h1 Здравствуйте, #{name}
-    a(href="/quit") Выйти
+	head
+		title #{title}
+		include layouts/header.pug
+	body
+		h1 Здравствуйте, #{name}
+		a(href="/quit") Выйти
+		br
+		br
+		p
+			button( id="upload_btn" ) Prompt for File
+		p
+			label Choose File:
+			input(type="file" id="upload_input" multiple="multiple" name="files[]")
+		div(id="file_drop" dropzone="copy") Drop File

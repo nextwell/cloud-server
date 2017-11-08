@@ -1,9 +1,10 @@
-let express       = require('express'),
-	pug 	      = require('pug'),
-	requireFu     = require('require-fu'),
-	fs		      = require('fs'),
-	session       = require('express-session'),
-	bodyParser 	  = require('body-parser');
+let express            = require('express'),
+	pug 	           = require('pug'),
+	requireFu          = require('require-fu'),
+	fs		           = require('fs'),
+	session            = require('express-session'),
+	bodyParser 	       = require('body-parser'),
+	SocketIOFileUpload = require('socketio-file-upload');
 	
 //----------------------------------------------------------------------------------------
 // Option config
@@ -24,7 +25,7 @@ db.setUpConnection();
 }*/
 
 let sessionMiddleware = session({
-    secret: "keyboard cat"
+    secret: "skey"
 });
 
 let app = express();
@@ -40,7 +41,9 @@ app.use(sessionMiddleware);
 
 app.use(express.static('public_files'));	// Public access
 
-requireFu(__dirname + '/routes')(app, db);
+app.use(SocketIOFileUpload.router);		// files uploader progress
+
+requireFu(__dirname + '/routes')(app, db, SocketIOFileUpload);
 
 app.listen(cfg['PORT'], () => {
   console.log(`Express server running on port ${cfg['PORT']}!`);
