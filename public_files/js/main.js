@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function(){
     // Do something on upload progress:
     siofu.addEventListener("progress", function(event){
         var percent = event.bytesLoaded / event.file.size * 100;
-        console.log(`Загружено на ${percent.toFixed(2)} процентов`);
         $('.progress-bar').attr('aria-valuenow', percent.toFixed(2));
         $('.progress-bar').css('width', `${percent.toFixed(2)}%`)
     });
@@ -23,5 +22,9 @@ document.addEventListener("DOMContentLoaded", function(){
         console.log(event.file);
         $('body').append("<div class='alert alert-success' role='alert'>Файл загружен!</div>")
     });
+
+    socket.on('test', function(data){
+        console.log(data);
+    })
 
 }, false);
