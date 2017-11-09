@@ -1,8 +1,7 @@
 //----------------------------------------------------------------------------------------
 // Socket.io index action module
 
-let SocketIOFileUpload = require('socketio-file-upload'),
-	fs 				   = require('fs'),
+let fs 				   = require('fs'),
 	FileManipulator    = require('../modules/FileManipulator.js');
 
 //----------------------------------------------------------------------------------------
@@ -11,10 +10,10 @@ let SocketIOFileUpload = require('socketio-file-upload'),
 let fileContents = fs.readFileSync('config.json','utf8');
 let cfg = JSON.parse(fileContents);
 
+module.exports = (io, db, SocketIOFileUpload) => {
 
-module.exports = (io, db) => {
-
-	io.on('connection', (socket) => {
+	io.on('connection', function (socket) {
+		console.log(socket.request.session.userData)
 	    let uploader = new SocketIOFileUpload();
 	    uploader.dir = "uploads";
 	    uploader.listen(socket);

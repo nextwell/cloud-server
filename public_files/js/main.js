@@ -1,10 +1,6 @@
-document.addEventListener("DOMContentLoaded", function(){
-
-    // Initialize instances:
-    var socket = io.connect('http://127.0.0.1:8081');
+ $(document).ready(function(){
+    let socket = io.connect('http://localhost:8081');
     var siofu = new SocketIOFileUpload(socket);
-
-    // Configure the three ways that SocketIOFileUpload can read files:
     document.getElementById("upload_btn").addEventListener("click", siofu.prompt, false);
     siofu.listenOnInput(document.getElementById("upload_input"));
     siofu.listenOnDrop(document.getElementById("file_drop"));
@@ -26,5 +22,5 @@ document.addEventListener("DOMContentLoaded", function(){
     socket.on('test', function(data){
         console.log(data);
     })
-
-}, false);
+})
+ 

@@ -43,7 +43,7 @@ app.use(express.static('public_files'));	// Public access
 
 app.use(SocketIOFileUpload.router);		// files uploader progress
 
-requireFu(__dirname + '/routes')(app, db, SocketIOFileUpload);
+requireFu(__dirname + '/routes')(app, db);
 
 app.listen(cfg['PORT'], () => {
   console.log(`Express server running on port ${cfg['PORT']}!`);
@@ -59,6 +59,6 @@ io.use(function(socket, next) {
     sessionMiddleware(socket.request, socket.request.res, next);
 });
 
-requireFu(__dirname + '/sockets')(io, db);		// require all sockets
+requireFu(__dirname + '/sockets')(io, db, SocketIOFileUpload);		// require all sockets
 
 server.listen(8081);
