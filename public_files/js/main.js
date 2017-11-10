@@ -1,9 +1,9 @@
  $(document).ready(function(){
     let socket = io.connect('http://localhost:8081');
     var siofu = new SocketIOFileUpload(socket);
-    document.getElementById("upload_btn").addEventListener("click", siofu.prompt, false);
+    //document.getElementById("upload_btn").addEventListener("click", siofu.prompt, false);
     siofu.listenOnInput(document.getElementById("upload_input"));
-    siofu.listenOnDrop(document.getElementById("file_drop"));
+    //siofu.listenOnDrop(document.getElementById("file_drop"));
 
     // Do something on upload progress:
     siofu.addEventListener("progress", function(event){

@@ -8,3 +8,4 @@ module.exports.setUpConnection = () => {
 }
 
 module.exports.Users = user;
+module.exports.File = file;

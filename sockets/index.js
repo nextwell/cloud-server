@@ -1,8 +1,7 @@
 //----------------------------------------------------------------------------------------
 // Socket.io index action module
 
-let fs 				   = require('fs'),
-	FileManipulator    = require('../modules/FileManipulator.js');
+let fs 				   = require('fs');
 
 //----------------------------------------------------------------------------------------
 // Option config
@@ -13,20 +12,27 @@ let cfg = JSON.parse(fileContents);
 module.exports = (io, db, SocketIOFileUpload) => {
 
 	io.on('connection', function (socket) {
-		console.log(socket.request.session.userData)
 	    let uploader = new SocketIOFileUpload();
 	    uploader.dir = "uploads";
 	    uploader.listen(socket);
 
 
 	    uploader.on("start", (event) => {
+	    	if ( !socket.request.session.userData ){
+	    		uploader.abort(event.file.id, socket);
+	    	}
 	    	if ( event.file.size > cfg['MAX_FILE_SIZE'] ){
 	        	uploader.abort(event.file.id, socket);
 	    	}
 	    })
 	    uploader.on("saved", (event) => {
 	        console.log("File successfully loaded");
-	        FileManipulator.compress(event.file.pathName);
+	        db.File.create({
+	        	userID: socket.request.session.userData._id,
+	        	name: event.file.name, 
+	        	fileURL: event.file.pathName,
+	        	size: event.file.size
+	        })
 	    });
 
 	    // Errors:
