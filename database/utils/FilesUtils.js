@@ -1,6 +1,7 @@
 let mongoose = require('mongoose'),
 	Users 	 = require('../models/Files.js'),
-	assert   = require('assert');
+	assert   = require('assert'),
+	ObjectID = require('mongodb').ObjectID;
 
 
 const File = mongoose.model('Files');
@@ -27,7 +28,14 @@ module.exports.create = (data) => {
 //----------------------------------------------------------------------------------------
 // Searching user
 
-module.exports.search = (id) => {
-	var oID = mongoose.Types.ObjectId(id);
-	return File.find( { _id: oID } );
+module.exports.search = (object) => {
+	//let oID = ObjectID(id);;
+	return File.find( object );
+}
+
+//----------------------------------------------------------------------------------------
+// Just for test
+
+module.exports.list = () => {
+	return File.find();
 }

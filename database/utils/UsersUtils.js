@@ -1,9 +1,15 @@
 let mongoose = require('mongoose'),
 	Users 	 = require('../models/Users.js'),
-	assert   = require('assert');
-
+	assert   = require('assert'),
+	fs 		 = require('fs');
 
 const User = mongoose.model('Users');
+
+//----------------------------------------------------------------------------------------
+// Option config
+
+let fileContents = fs.readFileSync('config.json','utf8');
+let cfg = JSON.parse(fileContents);
 
 //----------------------------------------------------------------------------------------
 // Searching user
@@ -29,7 +35,7 @@ module.exports.create = (data) => {
 		name: data.name,
 		surname: data.surname,
 		createdAt: new Date(),
-		maxSize: 100*1024,
+		maxSize: cfg['MAX_CLOUD_SIZE'],
 		size: 0
 	});
 	let promise = user.save();

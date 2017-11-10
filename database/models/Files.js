@@ -1,10 +1,9 @@
 let mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
-let ObjectId = Schema.ObjectId;
 
 const FileSchema = new Schema({
-	userID: { type: ObjectId },
+	userID: { type: String },
 	name: { type: String },
 	status: { type: String },
 	fileURL: { type: String },

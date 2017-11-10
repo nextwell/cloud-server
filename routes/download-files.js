@@ -5,11 +5,10 @@ let path 			= require('path'),
 
 module.exports = (app, db) => {
 	app.get('/download/:id', (req, res) => {
-		
 		db.File.search({_id: req.params.id })
 			.then(data => {
-				if ( data.userID == req.session.userData._id || data.status == 'open' ){
-					res.download(path.resolve(data.fileURL));
+				if ( data[0].userID == req.session.userData._id || data.status == 'open' ){
+					res.download(path.resolve(data[0].fileURL));
 				}
 				else{
 					res.send("File not found or hidden!");
