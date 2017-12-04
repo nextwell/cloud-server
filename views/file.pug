@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		title #{title}
+		include layouts/header.pug
+	body
+		h1 Страница файла #{file.name}
+		br
+		br
+		span Размер #{parseFloat(file.size/1024/1024).toFixed(2)} Мб
+		p
+			a(href="/download/" + file.id) Скачать
+
