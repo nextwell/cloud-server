@@ -20,8 +20,7 @@ module.exports.create = (data) => {
 		createdAt: new Date()
 	});
 	let promise = file.save();
-    assert.ok(promise instanceof require('mpromise'));
-    return promise;
+ 	return promise;
 
 }
 

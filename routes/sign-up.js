@@ -1,7 +1,8 @@
 //----------------------------------------------------------------------------------------
 // Sign Up Page
 
-let md5     = require('md5');
+let md5     = require('md5'),
+	Logger  = require('../modules/logger.js');
 
 module.exports = (app, db) => {
 	app.get('/signup', (req, res) => {
@@ -19,7 +20,10 @@ module.exports = (app, db) => {
 			surname: req.body.surname
 		};
 		db.Users.create(data)
-			.then(data => res.redirect('/login'))
+			.then(data => { 
+				Logger.write({source: "Express routes", action: "INFO", text: `Registration success | id: ${data._id}`})
+				res.redirect('/login'); 
+			})
 			.catch( err => res.send("ERROR!"));
 	})
 }

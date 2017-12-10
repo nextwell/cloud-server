@@ -1,7 +1,8 @@
 //----------------------------------------------------------------------------------------
 // Login / Sign-in Page
 
-let md5 = require('md5');
+let md5 	= require('md5'),
+	Logger  = require('../modules/logger.js');
 
 module.exports = (app, db) => {
 	app.get('/login', (req, res) => {
@@ -20,6 +21,7 @@ module.exports = (app, db) => {
 		db.Users.search(data.login, data.password)
 			.then(data => {
 				req.session.userData = data;
+				Logger.write({source: "Express routes", action: "INFO", text: `Authorization success | id: ${data._id}`})
 				res.redirect('/home');
 			})
 			.catch(err => res.send("ERROR!"));

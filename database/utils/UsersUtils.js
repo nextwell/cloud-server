@@ -39,7 +39,6 @@ module.exports.create = (data) => {
 		size: 0
 	});
 	let promise = user.save();
-    assert.ok(promise instanceof require('mpromise'));
     return promise;
 
 }

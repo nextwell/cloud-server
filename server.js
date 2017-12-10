@@ -4,7 +4,8 @@ let express            = require('express'),
 	fs		           = require('fs'),
 	session            = require('express-session'),
 	bodyParser 	       = require('body-parser'),
-	SocketIOFileUpload = require('socketio-file-upload');
+	SocketIOFileUpload = require('socketio-file-upload'),
+	Logger 			   = require('./modules/logger.js');
 	
 //----------------------------------------------------------------------------------------
 // Option config
@@ -19,13 +20,10 @@ let cfg = JSON.parse(fileContents);
 let db = require('./database/utils/DataBaseUtils.js');
 db.setUpConnection();
 
-/*let sessionOpt = {
-  secret: 'skey',
-  cookie: {}
-}*/
-
 let sessionMiddleware = session({
-    secret: "skey"
+    secret: "skey",
+    resave: true,
+    saveUninitialized: true
 });
 
 let app = express();
@@ -46,7 +44,7 @@ app.use(SocketIOFileUpload.router);		// files uploader progress
 requireFu(__dirname + '/routes')(app, db);
 
 app.listen(cfg['PORT'], () => {
-  console.log(`Express server running on port ${cfg['PORT']}!`);
+    Logger.write({source: "Express", action: "INFO", text:`Express server running on port ${cfg['PORT']}!`});
 });
 
 //----------------------------------------------------------------------------------------
