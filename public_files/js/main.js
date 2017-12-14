@@ -1,4 +1,9 @@
  $(document).ready(function(){
+
+    new Clipboard('.btn-clipboard');
+
+
+
     let socket = io.connect('http://localhost:8081');
     var siofu = new SocketIOFileUpload(socket);
     //document.getElementById("upload_btn").addEventListener("click", siofu.prompt, false);
@@ -21,6 +26,19 @@
 
     socket.on('test', function(data){
         console.log(data);
+    })
+
+
+    $('#btn-share').click(function(){
+        socket.emit('share-link', { id: $(this).attr('target-id') })
+        socket.on('share-link', function(msg){
+            console.log(msg);
+            if (msg.action == true){
+                $('#link-to-share').val(window.location.origin + msg.link);
+                console.log("True to share");
+            }
+            else console.log("False to share");
+        })
     })
 })
  

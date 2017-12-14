@@ -5,8 +5,9 @@ module.exports = (app, db) => {
 	app.get('/file/:id', (req, res) => {
 		db.File.search({_id: req.params.id })
 			.then(data => {
-				if ( data[0].userID == req.session.userData._id || data.status == 'open' ){
-					res.render('file', { title: `Информация о файле ${data[0].name}`, file: data[0]});
+				let item = data[0];
+				if ( req.session.userData && item.userID == req.session.userData._id || item.status == "open" ){
+					res.render('file', { title: `Информация о файле ${item.name}`, file: item});
 				}
 				else{
 					res.send("File not found or hidden!");
@@ -15,6 +16,5 @@ module.exports = (app, db) => {
 			.catch(err => {
 				res.send("File not found or hidden!")
 			})
-		//res.download(path.resolve(`uploads/test.txt`));
 	})
 }

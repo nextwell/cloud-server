@@ -16,10 +16,16 @@ module.exports = (io, db, SocketIOFileUpload) => {
 	io.on('connection', (socket) => {
 		Logger.write({source: "SocketIO", action: "DEBUG", text:`User connected`});
 
-		socket.on('disconnect', function () {
+		socket.on('disconnect', () => {
 	    	io.emit('disconnected');
 	    	Logger.write({source: "SocketIO", action: "DEBUG", text:`User disconnected`});
 	    });
+
+	    socket.on('share-link', async (msg) => {
+	    	await db.File.update({_id: msg.id});
+	    	socket.emit('share-link', {action: true, link: `/file/${msg.id}`})
+	    		
+	    })
 
 	    let uploader = new SocketIOFileUpload();
 	    uploader.dir = `uploads`;

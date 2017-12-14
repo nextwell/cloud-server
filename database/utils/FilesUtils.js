@@ -40,6 +40,18 @@ module.exports.remove = (object) => {
 }
 
 //----------------------------------------------------------------------------------------
+// Update file status
+
+module.exports.update = (object) => {
+	File.update( object,  { $set: { status: "open"} }, (err, result) => {
+		if ( err ) console.log(err);
+		else {
+			return true;
+		}
+	});
+}
+
+//----------------------------------------------------------------------------------------
 // Just for test
 
 module.exports.list = () => {

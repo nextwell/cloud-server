@@ -1,0 +1,304 @@
+[INFO «14.12.2017 11:12:22» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:13:25» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:14:19» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:14:45» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:15:1» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:15:2» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:15:4» SocketIO] -> User disconnected
+[INFO «14.12.2017 11:15:18» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:15:18» Express routes] -> File successfully removed | id: 5a3142df7884131a14129e42
+[INFO «14.12.2017 11:15:57» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:16:18» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:16:46» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:16:46» SocketIO] -> User connected
+[INFO «14.12.2017 11:16:52» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «14.12.2017 11:16:54» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:16:55» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:17:7» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:17:8» SocketIO] -> User connected
+[INFO «14.12.2017 11:17:43» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 11:17:44» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:17:49» SocketIO] -> User disconnected
+[INFO «14.12.2017 11:17:52» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:17:53» SocketIO] -> User connected
+[ERR «14.12.2017 11:17:58» Express routes] -> Trying to remove file without access! | id: 5a32337440affa23bc5da5ac
+[DEBUG «14.12.2017 11:17:58» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:17:59» SocketIO] -> User connected
+[INFO «14.12.2017 11:18:48» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 11:18:48» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:18:56» SocketIO] -> User disconnected
+[INFO «14.12.2017 11:18:59» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:18:59» SocketIO] -> User connected
+[INFO «14.12.2017 11:19:0» Express routes] -> File successfully removed | id: 5a32337440affa23bc5da5ac
+[DEBUG «14.12.2017 11:19:1» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:19:1» SocketIO] -> User connected
+[INFO «14.12.2017 11:19:8» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «14.12.2017 11:19:8» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:19:9» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:19:10» SocketIO] -> User disconnected
+[INFO «14.12.2017 11:19:30» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:20:16» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:20:32» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:20:38» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:20:38» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:20:39» Express routes] -> User quit | id: undefined
+[DEBUG «14.12.2017 11:20:39» SocketIO] -> User disconnected
+[INFO «14.12.2017 11:21:4» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:21:7» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:21:7» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:21:8» Express routes] -> User quit | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:21:8» SocketIO] -> User disconnected
+[INFO «14.12.2017 11:21:22» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:21:23» SocketIO] -> User connected
+[INFO «14.12.2017 11:21:30» Express routes] -> File successfully removed | id: 5a3233fcdfdc9321f4aede71
+[DEBUG «14.12.2017 11:21:30» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:21:30» SocketIO] -> User connected
+[INFO «14.12.2017 11:21:37» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «14.12.2017 11:21:38» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:21:38» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:21:54» Express routes] -> User quit | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:21:54» SocketIO] -> User disconnected
+[ERR «14.12.2017 11:21:58» Express routes] -> File is not found! | id: 5a313ac50d80670a388e0688
+[ERR «14.12.2017 11:22:9» Express routes] -> File is not found! | id: 5a313ac50d80670a388e0688
+[ERR «14.12.2017 11:22:25» Express routes] -> File is not found! | id: 5a323491617fa113389a342d
+[ERR «14.12.2017 11:22:44» Express routes] -> File is not found! | id: 5a323491617fa113389a342d
+[INFO «14.12.2017 11:23:14» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:23:15» SocketIO] -> User connected
+[INFO «14.12.2017 11:23:16» Express routes] -> File successfully removed | id: 5a323491617fa113389a342d
+[DEBUG «14.12.2017 11:23:16» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:23:16» SocketIO] -> User connected
+[INFO «14.12.2017 11:24:9» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:24:15» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:24:52» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:25:30» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:26:27» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 11:27:6» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 11:27:8» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:27:10» SocketIO] -> User disconnected
+[INFO «14.12.2017 11:27:16» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:27:16» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:29:47» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:29:47» SocketIO] -> User connected
+[INFO «14.12.2017 11:30:36» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 11:30:36» SocketIO] -> User connected
+[INFO «14.12.2017 11:30:42» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 11:30:42» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:31:31» SocketIO] -> User disconnected
+[INFO «14.12.2017 11:31:42» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 11:31:42» SocketIO] -> User connected
+[INFO «14.12.2017 11:31:45» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «14.12.2017 11:31:46» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:31:46» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:32:27» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:32:27» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:32:41» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:32:41» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:32:43» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:32:43» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:32:57» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:32:58» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:33:8» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:33:8» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:33:29» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:33:29» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:33:35» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:33:36» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:34:56» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:34:56» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:36:25» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:36:25» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:37:0» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:37:2» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:37:16» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:37:16» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:38:13» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:38:14» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:38:17» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:38:17» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:38:54» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:38:55» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:38:55» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:38:56» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:51:45» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:51:45» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:52:25» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:52:25» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:52:54» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:52:54» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:53:15» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:53:15» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:53:37» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:53:37» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:55:47» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:55:48» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:56:4» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:56:4» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:56:16» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:56:16» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:56:25» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:56:26» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:56:54» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:56:55» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:57:3» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:57:4» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:57:15» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:57:15» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:57:26» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:57:26» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:57:37» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:57:37» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:57:55» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:57:55» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:58:13» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:58:14» SocketIO] -> User connected
+[DEBUG «14.12.2017 11:58:19» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 11:58:20» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:0:57» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:0:57» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:1:14» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:1:14» SocketIO] -> User connected
+[INFO «14.12.2017 12:1:53» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:1:57» SocketIO] -> User connected
+[INFO «14.12.2017 12:3:32» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:3:32» SocketIO] -> User connected
+[INFO «14.12.2017 12:3:44» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:3:44» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:3:46» SocketIO] -> User disconnected
+[INFO «14.12.2017 12:3:50» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 12:3:51» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:4:34» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:4:35» SocketIO] -> User connected
+[INFO «14.12.2017 12:4:56» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:4:56» SocketIO] -> User connected
+[INFO «14.12.2017 12:5:31» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:5:31» SocketIO] -> User connected
+[INFO «14.12.2017 12:5:54» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:5:55» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:5:57» SocketIO] -> User disconnected
+[INFO «14.12.2017 12:5:59» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 12:6:0» SocketIO] -> User connected
+[INFO «14.12.2017 12:6:49» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:6:49» SocketIO] -> User connected
+[INFO «14.12.2017 12:26:5» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:26:5» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:26:13» SocketIO] -> User disconnected
+[INFO «14.12.2017 12:26:20» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 12:26:23» SocketIO] -> User connected
+[INFO «14.12.2017 12:27:2» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:27:4» SocketIO] -> User connected
+[INFO «14.12.2017 12:31:43» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:31:48» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:31:58» SocketIO] -> User disconnected
+[INFO «14.12.2017 12:32:1» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 12:32:1» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:37:31» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:38:18» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:39:39» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:39:40» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:40:17» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:40:17» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:40:46» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:40:47» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:41:18» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:41:19» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:41:35» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:41:35» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:46:15» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:46:16» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:46:23» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:46:24» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:47:41» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:47:42» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:48:44» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:48:45» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:49:30» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:49:31» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:49:37» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:49:38» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:50:9» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:50:10» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:50:22» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:50:28» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:51:29» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:51:30» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:51:38» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:51:39» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:52:3» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:52:5» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:52:48» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:52:49» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:52:55» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 12:52:56» SocketIO] -> User connected
+[INFO «14.12.2017 12:54:13» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:54:16» SocketIO] -> User connected
+[INFO «14.12.2017 12:55:30» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:55:30» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:55:32» SocketIO] -> User disconnected
+[INFO «14.12.2017 12:55:36» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 12:55:36» SocketIO] -> User connected
+[INFO «14.12.2017 12:56:37» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:56:37» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:57:21» SocketIO] -> User disconnected
+[INFO «14.12.2017 12:57:25» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 12:57:27» SocketIO] -> User connected
+[INFO «14.12.2017 12:58:38» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:58:38» SocketIO] -> User connected
+[INFO «14.12.2017 12:58:59» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:58:59» SocketIO] -> User connected
+[DEBUG «14.12.2017 12:59:0» SocketIO] -> User disconnected
+[INFO «14.12.2017 12:59:3» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 12:59:3» SocketIO] -> User connected
+[INFO «14.12.2017 12:59:56» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 12:59:56» SocketIO] -> User connected
+[INFO «14.12.2017 12:59:59» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:0:0» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:0:13» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 13:0:14» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:0:17» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 13:0:18» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:1:21» SocketIO] -> User disconnected
+[INFO «14.12.2017 13:1:25» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 13:1:26» SocketIO] -> User connected
+[INFO «14.12.2017 13:1:29» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:1:30» SocketIO] -> User connected
+[INFO «14.12.2017 13:2:18» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 13:2:18» SocketIO] -> User connected
+[INFO «14.12.2017 13:2:22» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:2:22» SocketIO] -> User connected
+[INFO «14.12.2017 13:3:19» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 13:3:19» SocketIO] -> User connected
+[INFO «14.12.2017 13:3:23» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:3:24» SocketIO] -> User connected
+[INFO «14.12.2017 13:3:38» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 13:3:38» SocketIO] -> User connected
+[INFO «14.12.2017 13:3:42» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:3:43» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:4:1» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 13:4:1» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:5:3» SocketIO] -> User disconnected
+[INFO «14.12.2017 13:5:13» Express] -> Express server running on port 8080!
+[DEBUG «14.12.2017 13:5:14» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:5:51» SocketIO] -> User disconnected
+[INFO «14.12.2017 13:5:54» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:5:55» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:6:49» Express routes] -> User quit | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:6:49» SocketIO] -> User disconnected
+[INFO «14.12.2017 13:7:18» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 13:8:1» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 13:8:49» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 13:9:9» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 13:9:30» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:9:31» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:9:41» Express routes] -> User quit | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:9:41» SocketIO] -> User disconnected
+[INFO «14.12.2017 13:10:48» Express] -> Express server running on port 8080!
+[INFO «14.12.2017 13:11:17» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:11:17» SocketIO] -> User connected
+[INFO «14.12.2017 13:11:33» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «14.12.2017 13:11:34» SocketIO] -> User disconnected
+[DEBUG «14.12.2017 13:11:34» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:12:4» Express routes] -> User quit | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:12:4» SocketIO] -> User disconnected
+[INFO «14.12.2017 13:12:19» Express routes] -> Authorization success | id: 5a313ac50d80670a388e0688
+[DEBUG «14.12.2017 13:12:20» SocketIO] -> User connected
+[DEBUG «14.12.2017 13:23:49» SocketIO] -> User disconnected

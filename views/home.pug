@@ -30,9 +30,27 @@ html
 							th(scope="row")= files[i].name
 							th= `${(files[i].size/1024/1024).toFixed(2)} Мб`
 							th
-								a(href="/download/" + files[i]._id) Скачать
+								a(class="badge badge-pill badge-primary btn" href="/download/" + files[i]._id) Скачать
 								br
-								a(href="#") Поделиться
+								button(class="badge badge-pill badge-info btn" data-toggle="modal" data-target="#ShareModal" id="btn-share" target-id= files[i]._id) Поделиться
 								br
-								a(href="/remove/" + files[i]._id) Удалить
+								a(class="badge badge-pill badge-danger" href="/remove/" + files[i]._id) Удалить
 					
+
+		div(class="modal fade" id="ShareModal" tabindex="-1" role="dialog" aria-labelledby="ShareModal" aria-hidden="true")
+			div(class="modal-dialog" role="document")
+				div(class="modal-content")
+					div(class="modal-header")
+						h5(class="modal-title") Поделиться файлом
+						button(type="button" class="close" data-dismiss="modal" aria-label="Закрыть")
+							span(aria-hidden="true") &times;
+					div(class="modal-body")
+						div(class="col-12")
+							div(class="input-group")
+								input(type="text" class="form-control" id="link-to-share" placeholder="Ссылка")
+								span(class="input-group-btn")
+								
+
+					div(class="modal-footer")
+						button(type="button" class="btn btn-success btn-clipboard" data-clipboard-target="#link-to-share") Скопировать
+						button(type="button" class="btn btn-secondary" data-dismiss="modal") Закрыть
