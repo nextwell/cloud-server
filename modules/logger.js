@@ -37,12 +37,10 @@ class Logger{
 		}
 	}
 	async writeFile(time, msg, date){
-		let newDate = `${date.getFullYear()}-${parseInt(date.getMonth()+1)}-${date.getDate()}`;
-		let filePath = `${cfg['LOGS_DIR']}/${newDate}.log`;
-		await fs.createReadStream(filePath, (err) => {
-			fs.writeFile(filePath, "" , (err) => { /* nothing ¯\_(ツ)_/¯ */ })
-		})
-		let msgStr = `[${msg.action} «${time}» ${msg.source}] -> ${msg.text}\n`;
+		let newDate = `${date.getFullYear()}-${parseInt(date.getMonth()+1)}-${date.getDate()}`,
+			filePath = `${cfg['LOGS_DIR']}/${newDate}.log`,
+			msgStr = `[${msg.action} «${time}» ${msg.source}] -> ${msg.text}\n`;
+
 		fs.appendFile(filePath, msgStr, (err) => { /* nothing ¯\_(ツ)_/¯ */ });
 	}
 }

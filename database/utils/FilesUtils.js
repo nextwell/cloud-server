@@ -25,11 +25,18 @@ module.exports.create = (data) => {
 }
 
 //----------------------------------------------------------------------------------------
-// Searching user
+// Searching file
 
 module.exports.search = (object) => {
 	//let oID = ObjectID(id);;
 	return File.find( object );
+}
+
+//----------------------------------------------------------------------------------------
+// Remove file from account
+
+module.exports.remove = (object) => {
+	return File.findOneAndRemove( object );
 }
 
 //----------------------------------------------------------------------------------------
