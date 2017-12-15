@@ -5,7 +5,9 @@ html
 		include layouts/header.pug
 		script(src='js/main.js')
 	body
-		h1 Здравствуйте, #{name}
+		h1 Здравствуйте, #{userData.name}
+		span(class="text-muted") #{userData.login}
+		br
 		a(href="/quit") Выйти
 		br
 		br
@@ -17,25 +19,27 @@ html
 		div(class="progress")
 			div(class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%")
 		br
-		.container
-			table(class="table")
-				thead(class="thead-dark")
-					tr
-						th(scope="row") Имя файла
-						th Размер
-						th Функции
-				tbody
-					- for (var i=0; i<files.length; i++)
+		if files.length
+			.container
+				table(class="table")
+					thead(class="thead-dark")
 						tr
-							th(scope="row")= files[i].name
-							th= `${(files[i].size/1024/1024).toFixed(2)} Мб`
-							th
-								a(class="badge badge-pill badge-primary btn" href="/download/" + files[i]._id) Скачать
-								br
-								button(class="badge badge-pill badge-info btn" data-toggle="modal" data-target="#ShareModal" id="btn-share" target-id= files[i]._id) Поделиться
-								br
-								a(class="badge badge-pill badge-danger" href="/remove/" + files[i]._id) Удалить
-					
+							th(scope="row") Имя файла
+							th Размер
+							th Функции
+					tbody
+						- for (var i=0; i<files.length; i++)
+							tr
+								th(scope="row")= files[i].name
+								th= `${(files[i].size/1024/1024).toFixed(2)} Мб`
+								th
+									a(class="badge badge-pill badge-primary btn" href="/download/" + files[i]._id) Скачать
+									br
+									button(class="badge badge-pill badge-info btn btn-share" data-toggle="modal" data-target="#ShareModal" target-id= files[i]._id) Поделиться
+									br
+									a(class="badge badge-pill badge-danger" href="/remove/" + files[i]._id) Удалить
+		else
+			span У вас нет файлов	
 
 		div(class="modal fade" id="ShareModal" tabindex="-1" role="dialog" aria-labelledby="ShareModal" aria-hidden="true")
 			div(class="modal-dialog" role="document")

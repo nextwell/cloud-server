@@ -1,8 +1,9 @@
 //----------------------------------------------------------------------------------------
 // Sign Up Page
 
-let md5     = require('md5'),
-	Logger  = require('../modules/logger.js');
+let md5     	 = require('md5'),
+	Logger  	 = require('../modules/logger.js'),
+	Verification = require('../modules/verification.js');
 
 module.exports = (app, db) => {
 	app.get('/signup', (req, res) => {
@@ -22,8 +23,22 @@ module.exports = (app, db) => {
 		db.Users.create(data)
 			.then(data => { 
 				Logger.write({source: "Express routes", action: "INFO", text: `Registration success | id: ${data._id}`})
-				res.redirect('/login'); 
+
+				/* --- eMail verification --- */
+				link=`http://${req.get('host')}/verify/${data._id}`;
+
+			    mailOptions={
+			        to : "niko-west@mail.ru",
+			        subject : "Подтверждение E-mail Вашей учетной записи AkiteCloud",
+			        html : `Здравствуйте.<br> Для активации аккаунта перейдите по этой ссылке.<br><a href="${link}">Подтвердить!</a>` 
+			    }
+			    Verification.smtp.sendMail(mailOptions, function(error, response){
+				     if(error){  }
+				     else{  }
+			     })
+				res.send("Подтвердите ваш электронный адрес!"); 
 			})
 			.catch( err => res.send("ERROR!"));
+
 	})
 }

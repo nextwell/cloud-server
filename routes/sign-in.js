@@ -20,9 +20,12 @@ module.exports = (app, db) => {
 		};
 		db.Users.search(data.login, data.password)
 			.then(data => {
-				req.session.userData = data;
-				Logger.write({source: "Express routes", action: "INFO", text: `Authorization success | id: ${data._id}`})
-				res.redirect('/home');
+				if ( data.status == 'true'){
+					req.session.userData = data;
+					Logger.write({source: "Express routes", action: "INFO", text: `Authorization success | id: ${data._id}`})
+					res.redirect('/home');
+				}
+				else res.send("Сначала подтвердите электронный адрес!")
 			})
 			.catch(err => res.send("ERROR!"));
 

@@ -50,10 +50,3 @@ module.exports.update = (object) => {
 		}
 	});
 }
-
-//----------------------------------------------------------------------------------------
-// Just for test
-
-module.exports.list = () => {
-	return File.find();
-}

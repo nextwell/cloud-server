@@ -19,13 +19,6 @@ module.exports.search = (login, password) => {
 }
 
 //----------------------------------------------------------------------------------------
-// Just for test
-
-module.exports.list = () => {
-	return Users.find();
-}
-
-//----------------------------------------------------------------------------------------
 // Sign up new user
 
 module.exports.create = (data) => {
@@ -36,9 +29,22 @@ module.exports.create = (data) => {
 		surname: data.surname,
 		createdAt: new Date(),
 		maxSize: cfg['MAX_CLOUD_SIZE'],
-		size: 0
+		size: 0,
+		status: 'false'
 	});
 	let promise = user.save();
     return promise;
 
+}
+
+//----------------------------------------------------------------------------------------
+// Update User status
+
+module.exports.update = (object) => {
+	Users.update( object,  { $set: { status: "true"} }, (err, result) => {
+		if ( err ) console.log(err);
+		else {
+			return true;
+		}
+	});
 }

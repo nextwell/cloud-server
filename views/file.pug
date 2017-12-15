@@ -4,10 +4,11 @@ html
 		title #{title}
 		include layouts/header.pug
 	body
-		h1 Страница файла #{file.name}
-		br
-		br
-		span Размер #{parseFloat(file.size/1024/1024).toFixed(2)} Мб
-		p
-			a(href="/download/" + file.id) Скачать
+		div(class="flex-centered-content")
+			div(class="card centered file-card")
+				i(class="fa fa-file fa-3x file-icon" aria-hidden="true")
+				div(class="card-body")
+					h4(class="card-title") #{file.name}
+					p(class="card-text") Размер: #{parseFloat(file.size/1024/1024).toFixed(2)} Мб
+					a(class="btn btn-success" href="/download/" + file.id) Скачать
 

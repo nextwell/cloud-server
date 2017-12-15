@@ -29,7 +29,7 @@
     })
 
 
-    $('#btn-share').click(function(){
+    $('.btn-share').click(function(){
         socket.emit('share-link', { id: $(this).attr('target-id') })
         socket.on('share-link', function(msg){
             console.log(msg);

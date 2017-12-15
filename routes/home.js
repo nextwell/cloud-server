@@ -8,7 +8,7 @@ module.exports = (app, db) => {
 			let files;
 			db.File.search({userID: session._id })
 				.then(data => {
-					res.render('home', { title: 'Главная страница', name: session.name, files: data});
+					res.render('home', { title: 'Главная страница', userData: session, files: data});
 				})
 				.catch(err => {
 					console.log(err);
