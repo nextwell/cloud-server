@@ -10,11 +10,11 @@ module.exports = (app, db) => {
 					res.render('file', { title: `Информация о файле ${item.name}`, file: item});
 				}
 				else{
-					res.send("File not found or hidden!");
+					res.send("Файл не найден!");
 				}
 			})
 			.catch(err => {
-				res.send("File not found or hidden!")
+				res.send("Файл не найден!")
 			})
 	})
 }

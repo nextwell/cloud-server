@@ -13,11 +13,11 @@ module.exports = (app, db) => {
 					Logger.write({source: "Express routes", action: "INFO", text: `File successfully downloaded | id: ${data[0]._id}`})
 				}
 				else{
-					res.send("File not found or hidden!");
+					res.send("Файл не найден!");
 				}
 			})
 			.catch(err => {
-				res.send("File not found or hidden!")
+				res.send("Файл не найден!")
 			})
 	})
 }

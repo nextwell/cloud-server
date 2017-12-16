@@ -1,0 +1,72 @@
+[INFO «16.12.2017 16:30:8» Express] -> Express server running on port 8080!
+[INFO «16.12.2017 16:30:51» Express routes] -> Authorization success | id: 5a3404eded3bb61e082d7984
+[DEBUG «16.12.2017 16:30:56» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:31:3» SocketIO] -> User disconnected
+[INFO «16.12.2017 16:31:4» Express routes] -> File successfully removed | id: 5a3406b77d16c11e28039448
+[DEBUG «16.12.2017 16:31:4» SocketIO] -> User connected
+[ERR «16.12.2017 16:31:7» Express routes] -> File is not found! | id: 5a3406b77d16c11e28039448
+[DEBUG «16.12.2017 16:31:8» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:31:8» SocketIO] -> User connected
+[INFO «16.12.2017 16:36:12» Express] -> Express server running on port 8080!
+[DEBUG «16.12.2017 16:36:12» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:36:14» SocketIO] -> User disconnected
+[INFO «16.12.2017 16:36:18» Express routes] -> Authorization success | id: 5a3404eded3bb61e082d7984
+[DEBUG «16.12.2017 16:36:19» SocketIO] -> User connected
+[INFO «16.12.2017 16:36:31» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «16.12.2017 16:36:31» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:36:31» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:36:34» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:36:35» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:37:15» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:15» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:20» Express] -> Express server running on port 8080!
+[DEBUG «16.12.2017 16:37:20» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:37:24» SocketIO] -> User disconnected
+[INFO «16.12.2017 16:37:28» Express routes] -> Authorization success | id: 5a3404eded3bb61e082d7984
+[DEBUG «16.12.2017 16:37:29» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:33» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «16.12.2017 16:37:33» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:33» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:37» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «16.12.2017 16:37:37» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:37» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:41» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «16.12.2017 16:37:41» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:41» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:43» Express routes] -> File successfully removed | id: 5a3521a501385f1574a57169
+[DEBUG «16.12.2017 16:37:44» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:44» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:45» Express routes] -> File successfully removed | id: 5a3521a101385f1574a57168
+[DEBUG «16.12.2017 16:37:45» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:45» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:46» Express routes] -> File successfully removed | id: 5a35219d01385f1574a57167
+[DEBUG «16.12.2017 16:37:46» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:46» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:47» Express routes] -> File successfully removed | id: 5a35215f59e15b20a48c7126
+[DEBUG «16.12.2017 16:37:47» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:47» SocketIO] -> User connected
+[INFO «16.12.2017 16:37:51» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «16.12.2017 16:37:51» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:37:51» SocketIO] -> User connected
+[INFO «16.12.2017 16:38:5» Express routes] -> File successfully downloaded | id: 5a3521af01385f1574a5716a
+[INFO «16.12.2017 16:38:22» Express routes] -> File successfully downloaded | id: 5a3521af01385f1574a5716a
+[INFO «16.12.2017 16:38:27» Express routes] -> File successfully downloaded | id: 5a3521af01385f1574a5716a
+[INFO «16.12.2017 16:38:38» Express routes] -> File successfully removed | id: 5a3521af01385f1574a5716a
+[DEBUG «16.12.2017 16:38:38» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:38:38» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:38:41» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:38:41» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:39:5» Express routes] -> User quit | id: 5a3404eded3bb61e082d7984
+[DEBUG «16.12.2017 16:39:5» SocketIO] -> User disconnected
+[INFO «16.12.2017 16:39:31» Express routes] -> Registration success | id: 5a35221301385f1574a5716b
+[INFO «16.12.2017 16:40:22» Express routes] -> Authorization success | id: 5a35221301385f1574a5716b
+[DEBUG «16.12.2017 16:40:23» SocketIO] -> User connected
+[INFO «16.12.2017 16:40:27» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «16.12.2017 16:40:27» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:40:27» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:40:57» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:41:9» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:41:10» SocketIO] -> User connected
+[DEBUG «16.12.2017 16:41:21» SocketIO] -> User disconnected
+[DEBUG «16.12.2017 16:41:57» Express routes] -> User quit | id: 5a35221301385f1574a5716b
+[DEBUG «16.12.2017 16:41:57» SocketIO] -> User disconnected

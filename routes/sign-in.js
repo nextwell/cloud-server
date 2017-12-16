@@ -27,7 +27,7 @@ module.exports = (app, db) => {
 				}
 				else res.send("Сначала подтвердите электронный адрес!")
 			})
-			.catch(err => res.send("ERROR!"));
+			.catch(err => res.send("Ошибка, повторите попытку!"));
 
 	})
 }

@@ -21,13 +21,9 @@
     siofu.addEventListener("complete", function(event){
         console.log(event.success);
         console.log(event.file);
-        $('body').append("<div class='alert alert-success' role='alert'>Файл загружен!</div>")
+        $('body').append("<div class='alert alert-success' role='alert'>Файл загружен!</div>");
+        window.location.reload();
     });
-
-    socket.on('test', function(data){
-        console.log(data);
-    })
-
 
     $('.btn-share').click(function(){
         socket.emit('share-link', { id: $(this).attr('target-id') })
