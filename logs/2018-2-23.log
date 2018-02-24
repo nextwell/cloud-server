@@ -1,0 +1,125 @@
+[INFO «23.2.2018 21:57:33» Express] -> Express server running on port 8080!
+[INFO «23.2.2018 21:58:8» Express routes] -> Registration success | id: 5a906440eaee8c0af8fe67ac
+[INFO «23.2.2018 21:58:45» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 21:58:45» SocketIO] -> User connected
+[INFO «23.2.2018 21:59:8» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «23.2.2018 21:59:9» SocketIO] -> User disconnected
+[DEBUG «23.2.2018 21:59:9» SocketIO] -> User connected
+[INFO «23.2.2018 22:1:22» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:1:23» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:1:39» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:1:45» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:1:45» SocketIO] -> User connected
+[INFO «23.2.2018 22:2:2» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:2:2» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:2:4» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:2:15» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:2:15» SocketIO] -> User connected
+[INFO «23.2.2018 22:6:45» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:6:46» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:6:48» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:6:52» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:6:52» SocketIO] -> User connected
+[INFO «23.2.2018 22:7:5» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:7:5» SocketIO] -> User connected
+[INFO «23.2.2018 22:7:6» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:7:8» SocketIO] -> User connected
+[INFO «23.2.2018 22:7:29» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:7:30» SocketIO] -> User connected
+[INFO «23.2.2018 22:7:34» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:7:34» SocketIO] -> User connected
+[INFO «23.2.2018 22:7:50» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:7:50» SocketIO] -> User connected
+[INFO «23.2.2018 22:7:51» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:7:52» SocketIO] -> User connected
+[INFO «23.2.2018 22:8:9» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:8:10» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:8:11» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:8:12» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:8:12» SocketIO] -> User connected
+[INFO «23.2.2018 22:9:20» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:9:21» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:9:22» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:9:23» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:9:23» SocketIO] -> User connected
+[INFO «23.2.2018 22:11:40» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:11:40» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:11:42» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:11:43» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:11:43» SocketIO] -> User connected
+[INFO «23.2.2018 22:14:24» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:14:29» SocketIO] -> User connected
+[INFO «23.2.2018 22:14:31» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:14:32» SocketIO] -> User connected
+[INFO «23.2.2018 22:15:14» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:15:14» SocketIO] -> User connected
+[INFO «23.2.2018 22:15:40» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:15:40» SocketIO] -> User connected
+[INFO «23.2.2018 22:15:55» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:15:56» SocketIO] -> User connected
+[INFO «23.2.2018 22:16:2» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:16:2» SocketIO] -> User connected
+[INFO «23.2.2018 22:16:5» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:16:5» SocketIO] -> User connected
+[INFO «23.2.2018 22:16:54» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:16:54» SocketIO] -> User connected
+[INFO «23.2.2018 22:17:3» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:17:4» SocketIO] -> User connected
+[INFO «23.2.2018 22:17:56» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:17:57» SocketIO] -> User connected
+[INFO «23.2.2018 22:18:11» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:18:11» SocketIO] -> User connected
+[INFO «23.2.2018 22:18:49» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:18:50» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:18:50» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:18:51» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:18:51» SocketIO] -> User connected
+[INFO «23.2.2018 22:19:20» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:19:21» SocketIO] -> User connected
+[INFO «23.2.2018 22:19:27» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:19:28» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:19:40» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:19:41» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:19:42» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:19:44» SocketIO] -> User disconnected
+[DEBUG «23.2.2018 22:19:44» SocketIO] -> User connected
+[INFO «23.2.2018 22:20:6» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:20:6» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:20:7» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:20:8» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:20:9» SocketIO] -> User connected
+[INFO «23.2.2018 22:20:33» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:20:33» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:20:34» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:20:36» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:20:36» SocketIO] -> User connected
+[INFO «23.2.2018 22:20:45» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:20:46» SocketIO] -> User connected
+[INFO «23.2.2018 22:21:8» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:21:8» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:21:8» SocketIO] -> User disconnected
+[INFO «23.2.2018 22:21:9» Express routes] -> Authorization success | id: 5a906440eaee8c0af8fe67ac
+[DEBUG «23.2.2018 22:21:10» SocketIO] -> User connected
+[INFO «23.2.2018 22:22:33» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «23.2.2018 22:22:33» SocketIO] -> User disconnected
+[DEBUG «23.2.2018 22:22:34» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:22:35» SocketIO] -> User disconnected
+[DEBUG «23.2.2018 22:22:35» SocketIO] -> User connected
+[DEBUG «23.2.2018 22:22:52» SocketIO] -> User disconnected
+[DEBUG «23.2.2018 22:22:52» SocketIO] -> User connected
+[INFO «23.2.2018 22:28:49» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:28:50» SocketIO] -> User connected
+[INFO «23.2.2018 22:28:59» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:28:59» SocketIO] -> User connected
+[INFO «23.2.2018 22:29:3» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:29:4» SocketIO] -> User connected
+[INFO «23.2.2018 22:29:15» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:29:15» SocketIO] -> User connected
+[INFO «23.2.2018 22:29:20» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:29:20» SocketIO] -> User connected
+[INFO «23.2.2018 22:29:28» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:29:29» SocketIO] -> User connected
+[INFO «23.2.2018 22:30:14» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:30:15» SocketIO] -> User connected
+[INFO «23.2.2018 22:31:52» Express] -> Express server running on port 8080!
+[DEBUG «23.2.2018 22:31:52» SocketIO] -> User connected

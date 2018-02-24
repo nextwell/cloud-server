@@ -48,3 +48,7 @@ module.exports.update = (object) => {
 		}
 	});
 }
+
+module.exports.get = (id) => {
+	return Users.findOne({_id: id})
+}
