@@ -60,3 +60,77 @@ io.use(function(socket, next) {
 requireFu(__dirname + '/sockets')(io, db, SocketIOFileUpload);		// require all sockets
 
 server.listen(8081);
+
+
+
+// POST UPLOADER
+
+
+let upload = require('jquery-file-upload-middleware'),
+	mkdirp = require('mkdirp');
+
+upload.configure({
+    uploadDir: __dirname + '/uploads/',
+    uploadUrl: '/uploads'
+});
+
+
+app.get('/upload', function( req, res ){
+	res.redirect('/');
+});
+
+app.put('/upload', function( req, res ){
+	res.redirect('/');
+});
+
+app.delete('/upload', function( req, res ){
+	res.redirect('/');
+});
+
+app.use('/upload', function(req, res, next){
+    upload.fileHandler({
+        uploadDir: function () {
+            return __dirname + '/uploads/'
+        },
+        uploadUrl: function () {
+            return '/uploads'
+        }
+    })(req, res, next);
+
+
+    
+});
+
+upload.on('end', async function (fileInfo, req, res) {
+	let time     = new Date(),
+	    dirTime  = time.getTime(),
+	    dirStr   =  Math.random()
+	    				.toString(36)
+	    				.slice(2, 2 + Math.max(1, Math.min(15, 25)) ),
+	    finalDir = `${dirTime}${dirStr}`;
+
+	    let datesDir = `${cfg["UPLOAD_DIR"]}/${time.getFullYear()}-${parseInt(time.getMonth()+1)}-${time.getDate()}`;
+
+	    await mkdirp(datesDir, (err) => { /* nothing ¯\_(ツ)_/¯ */ });
+	    await mkdirp(`${datesDir}/${finalDir}`, (err) => { 
+			if ( err ) Logger.write({source: "POST Uploader", action: "ERR", text:`Trying to create dir after save, but dir already exist!`});
+		});
+	  
+	    
+	
+	// --------	// 
+	// File move to unique dir
+	let newPath = `${datesDir}/${finalDir}/${fileInfo.name}`;
+    fs.rename(
+	    `./uploads/${fileInfo.name}`,
+	    newPath,
+	    function( err ) { /* nothing ¯\_(ツ)_/¯ */ }
+	)
+
+	db.File.create({
+    	userID: req.session.userData._id,
+    	name: fileInfo.name, 
+    	fileURL: newPath,
+    	size: fileInfo.size
+    }) 
+});

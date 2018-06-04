@@ -1,60 +1,17 @@
-doctype html
-html
-	head
-		title #{title}
-		include layouts/header.pug
-		script(src='js/main.js')
-	body
-		h1 Здравствуйте, #{userData.name}
-		span(class="text-muted") #{userData.login}
-		br
-		a(href="/quit") Выйти
-		br
-		br
-		p
-			label Выберите файл:
-			br
-			input(type="file" id="upload_input" multiple="multiple" name="files[]")
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>123</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/antd@3.2.2/dist/antd.css" />
+	<link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+	<div id="root"></div>
 
-		div(class="progress")
-			div(class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%")
-		br
-		if files.length
-			.container
-				table(class="table")
-					thead(class="thead-dark")
-						tr
-							th(scope="row") Имя файла
-							th Размер
-							th Функции
-					tbody
-						- for (var i=0; i<files.length; i++)
-							tr
-								th(scope="row")= files[i].name
-								th= `${(files[i].size/1024/1024).toFixed(2)} Мб`
-								th
-									a(class="badge badge-pill badge-primary btn" href="/download/" + files[i]._id) Скачать
-									br
-									button(class="badge badge-pill badge-info btn btn-share" data-toggle="modal" data-target="#ShareModal" target-id= files[i]._id) Поделиться
-									br
-									a(class="badge badge-pill badge-danger" href="/remove/" + files[i]._id) Удалить
-		else
-			span У вас нет файлов	
 
-		div(class="modal fade" id="ShareModal" tabindex="-1" role="dialog" aria-labelledby="ShareModal" aria-hidden="true")
-			div(class="modal-dialog" role="document")
-				div(class="modal-content")
-					div(class="modal-header")
-						h5(class="modal-title") Поделиться файлом
-						button(type="button" class="close" data-dismiss="modal" aria-label="Закрыть")
-							span(aria-hidden="true") &times;
-					div(class="modal-body")
-						div(class="col-12")
-							div(class="input-group")
-								input(type="text" class="form-control" id="link-to-share" placeholder="Ссылка")
-								span(class="input-group-btn")
-								
-
-					div(class="modal-footer")
-						button(type="button" class="btn btn-success btn-clipboard" data-clipboard-target="#link-to-share") Скопировать
-						button(type="button" class="btn btn-secondary" data-dismiss="modal") Закрыть
+	<script src="js/build.js"></script>
+</body>
+</html>

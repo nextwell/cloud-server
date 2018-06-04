@@ -28,12 +28,12 @@ module.exports = (app, db) => {
 				link=`http://${req.get('host')}/verify/${data._id}`;
 
 			    mailOptions={
-			        to : "niko-west@mail.ru",
+			        to : data.login,
 			        subject : "Подтверждение E-mail Вашей учетной записи AkiteCloud",
 			        html : `Здравствуйте.<br> Для активации аккаунта перейдите по этой ссылке.<br><a href="${link}">Подтвердить!</a>` 
 			    }
 			    Verification.smtp.sendMail(mailOptions, function(error, response){
-				     if(error){  }
+				     if(error){ console.log(error) }
 				     else{  }
 			     })
 				res.send("Подтвердите ваш электронный адрес!"); 

@@ -1,0 +1,88 @@
+[INFO «3.6.2018 20:17:55» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:18:16» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:19:28» Express routes] -> Registration success | id: 5b142320b86fed1a2cc5802c
+[INFO «3.6.2018 20:21:37» Express routes] -> Registration success | id: 5b1423a1b86fed1a2cc5802e
+[INFO «3.6.2018 20:22:35» Express routes] -> Registration success | id: 5b1423dbb86fed1a2cc5802f
+[INFO «3.6.2018 20:25:42» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:26:29» Express routes] -> Registration success | id: 5b1424c5685ae423e87a9677
+[INFO «3.6.2018 20:30:35» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:30:49» Express routes] -> Registration success | id: 5b1425c9aac04627e8f96669
+[INFO «3.6.2018 20:31:14» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:31:42» Express routes] -> Registration success | id: 5b1425fe723a25246c4c8d05
+[INFO «3.6.2018 20:33:16» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:33:42» Express routes] -> Registration success | id: 5b14267667b1de27b03d27fe
+[INFO «3.6.2018 20:34:48» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:35:9» Express routes] -> Registration success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 20:35:50» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 20:46:18» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:47:32» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 20:48:7» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:48:49» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 20:49:52» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:49:56» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 20:53:12» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:53:19» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[DEBUG «3.6.2018 20:53:23» Express routes] -> User quit | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 20:53:34» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 20:58:41» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 20:58:50» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[DEBUG «3.6.2018 20:58:50» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:2:22» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:2:22» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:2:22» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:2:30» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:2:30» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:2:31» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:3:25» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:3:25» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:3:59» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:4:0» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:4:15» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:4:16» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:4:37» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:4:38» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:5:0» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:5:3» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:11:43» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:11:44» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:11:45» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:11:46» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:11:48» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:11:49» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:12:38» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:12:39» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:15:19» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:15:20» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:16:32» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:16:33» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:16:42» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:16:43» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:17:11» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:17:12» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:18:44» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:18:45» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:19:24» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:19:26» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:20:22» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:20:23» SocketIO] -> User connected
+[INFO «3.6.2018 21:20:48» Uploader SocketIO] -> File successfully uploaded
+[DEBUG «3.6.2018 21:23:5» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:23:6» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:23:21» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:23:22» SocketIO] -> User connected
+[DEBUG «3.6.2018 21:23:52» SocketIO] -> User disconnected
+[DEBUG «3.6.2018 21:23:53» SocketIO] -> User connected
+[INFO «3.6.2018 21:53:20» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 21:53:22» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 22:4:19» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 22:4:23» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 22:7:44» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 22:7:48» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 22:9:19» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 22:9:23» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 22:10:39» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 22:10:45» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 22:19:50» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 22:20:2» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «3.6.2018 22:52:8» Express] -> Express server running on port 8080!
+[INFO «3.6.2018 22:52:10» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700

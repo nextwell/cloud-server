@@ -1,53 +1,34 @@
-var webpack = require('webpack');
+let BrowserSyncPlugin = require('browser-sync-webpack-plugin'),
+		      webpack = require('webpack');
 
 module.exports = {
-    entry: "./app/main.js",
-    output: {
-        path: __dirname + '../public_files/js/build/',
-        filename: "bundle.js"
+	entry: './src/index.jsx',
+	output: {
+		filename: './js/build.js'
+	},
+	watch: true,
+	module: {
+	    rules: [
+	        {
+		        test: /\.jsx$/,
+		        exclude: /node_modules/,
+		        use: {
+		          loader: "babel-loader"
+		        }
+	        }
+	    ]
     },
-    module: {
-        loaders: [
-            {
-                test: /\.js$/,
-                loader: "babel",
-                exclude: [/node_modules/, /public/]
-            },
-            {
-                test: /\.css$/,
-                loader: "style-loader!css-loader!autoprefixer-loader",
-                exclude: [/node_modules/, /public/]
-            },
-            {
-                test: /\.less$/,
-                loader: "style-loader!css-loader!autoprefixer-loader!less",
-                exclude: [/node_modules/, /public/]
-            },
-            {
-                test: /\.gif$/,
-                loader: "url-loader?limit=10000&mimetype=image/gif"
-            },
-            {
-                test: /\.jpg$/,
-                loader: "url-loader?limit=10000&mimetype=image/jpg"
-            },
-            {
-                test: /\.png$/,
-                loader: "url-loader?limit=10000&mimetype=image/png"
-            },
-            {
-                test: /\.svg/,
-                loader: "url-loader?limit=26000&mimetype=image/svg+xml"
-            },
-            {
-                test: /\.jsx$/,
-                loader: "react-hot!babel",
-                exclude: [/node_modules/, /public/]
-            },
-            {
-                test: /\.json$/,
-                loader: "json-loader"
-            }
-        ]
-    }
+	plugins: [
+	    new webpack.DefinePlugin({
+	        'process.env': {
+	            NODE_ENV: JSON.stringify('development')
+	        }
+	    }),
+	    new BrowserSyncPlugin({
+	    	host: 'localhost',
+	    	port: 3000,
+	    	files: ['./dist/*.html', './dist/css/*css', './dist/js/*.js', './dist/js/*.jsx'],
+	    	server: { baseDir: ['dist'] }
+	    })
+	]
 }
