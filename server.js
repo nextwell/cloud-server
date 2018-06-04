@@ -132,5 +132,5 @@ upload.on('end', async function (fileInfo, req, res) {
     	name: fileInfo.name, 
     	fileURL: newPath,
     	size: fileInfo.size
-    }) 
+    })
 });

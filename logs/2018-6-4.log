@@ -20,3 +20,58 @@
 [INFO «4.6.2018 2:39:56» Express routes] -> File successfully removed | id: 5b144a122880861b247f5c5c
 [INFO «4.6.2018 2:39:57» Express routes] -> File successfully removed | id: 5b144a122880861b247f5c5d
 [INFO «4.6.2018 3:33:53» Express routes] -> File successfully removed | id: 5b147c6857448c1ea874ece2
+[INFO «4.6.2018 6:13:44» Express] -> Express server running on port 8080!
+[INFO «4.6.2018 6:14:35» Express] -> Express server running on port 8080!
+[INFO «4.6.2018 6:14:46» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «4.6.2018 6:15:8» Express routes] -> File successfully removed | id: 5b14aeb4bc259403980dfeff
+[INFO «4.6.2018 6:15:22» Express routes] -> File successfully downloaded | id: 5b14aec7bc259403980dff00
+[INFO «4.6.2018 7:2:7» Express routes] -> File successfully removed | id: 5b14aec7bc259403980dff00
+[INFO «4.6.2018 7:2:9» Express routes] -> File successfully removed | id: 5b14b0b2bc259403980dff01
+[INFO «4.6.2018 7:2:10» Express routes] -> File successfully removed | id: 5b14b0b2bc259403980dff02
+[INFO «4.6.2018 7:2:11» Express routes] -> File successfully removed | id: 5b14b0b2bc259403980dff03
+[INFO «4.6.2018 7:2:13» Express routes] -> File successfully removed | id: 5b14b0b2bc259403980dff04
+[INFO «4.6.2018 7:12:5» Express routes] -> File successfully removed | id: 5b14b9d7bc259403980dff05
+[INFO «4.6.2018 7:13:11» Express routes] -> File successfully removed | id: 5b14b9dbbc259403980dff0c
+[INFO «4.6.2018 7:16:3» Express routes] -> File successfully removed | id: 5b14b9d8bc259403980dff09
+[INFO «4.6.2018 7:21:43» Express routes] -> File successfully removed | id: 5b14b9d8bc259403980dff08
+[INFO «4.6.2018 7:26:4» Express routes] -> File successfully removed | id: 5b14b9d8bc259403980dff06
+[INFO «4.6.2018 7:29:27» Express routes] -> File successfully removed | id: 5b14b9d9bc259403980dff0b
+[INFO «4.6.2018 7:31:16» Express routes] -> File successfully removed | id: 5b14b9d8bc259403980dff07
+[INFO «4.6.2018 7:33:41» Express routes] -> File successfully removed | id: 5b14c0a5bc259403980dff11
+[INFO «4.6.2018 7:38:19» Express routes] -> File successfully removed | id: 5b14b9d8bc259403980dff0a
+[INFO «4.6.2018 7:39:48» Express routes] -> File successfully removed | id: 5b14c0a5bc259403980dff0e
+[INFO «4.6.2018 7:40:7» Express routes] -> File successfully removed | id: 5b14c0a5bc259403980dff0f
+[INFO «4.6.2018 7:41:33» Express routes] -> File successfully removed | id: 5b14c0a5bc259403980dff10
+[INFO «4.6.2018 7:41:43» Express routes] -> File successfully removed | id: 5b14c0a5bc259403980dff0d
+[INFO «4.6.2018 7:43:17» Express routes] -> File successfully removed | id: 5b14c35fbc259403980dff13
+[ERR «4.6.2018 7:43:27» Express routes] -> File is not found! | id: 5b14c35fbc259403980dff13
+[INFO «4.6.2018 7:45:21» Express routes] -> File successfully removed | id: 5b14c35fbc259403980dff14
+[INFO «4.6.2018 7:45:27» Express routes] -> File successfully removed | id: 5b14c35fbc259403980dff17
+[INFO «4.6.2018 7:46:12» Express routes] -> File successfully downloaded | id: 5b14c35fbc259403980dff15
+[INFO «4.6.2018 7:47:4» Express routes] -> File successfully removed | id: 5b14c35fbc259403980dff16
+[INFO «4.6.2018 7:47:7» Express routes] -> File successfully removed | id: 5b14c360bc259403980dff18
+[INFO «4.6.2018 7:48:55» Express routes] -> File successfully removed | id: 5b14c35fbc259403980dff15
+[INFO «4.6.2018 7:51:31» Express routes] -> File successfully removed | id: 5b14c35fbc259403980dff12
+[INFO «4.6.2018 7:53:28» Express routes] -> File successfully removed | id: 5b14c5c4bc259403980dff1c
+[INFO «4.6.2018 7:55:3» Express routes] -> File successfully removed | id: 5b14c5c4bc259403980dff1a
+[INFO «4.6.2018 7:56:8» Express routes] -> File successfully removed | id: 5b14c5c4bc259403980dff1d
+[INFO «4.6.2018 7:56:33» Express routes] -> File successfully removed | id: 5b14c5c4bc259403980dff1b
+[INFO «4.6.2018 7:56:34» Express routes] -> File successfully removed | id: 5b14c5c3bc259403980dff19
+[INFO «4.6.2018 7:56:59» Express routes] -> File successfully removed | id: 5b14c695bc259403980dff22
+[INFO «4.6.2018 7:57:1» Express routes] -> File successfully removed | id: 5b14c68bbc259403980dff1f
+[INFO «4.6.2018 7:57:3» Express routes] -> File successfully removed | id: 5b14c68bbc259403980dff1e
+[INFO «4.6.2018 7:57:4» Express routes] -> File successfully removed | id: 5b14c68bbc259403980dff20
+[INFO «4.6.2018 7:57:5» Express routes] -> File successfully removed | id: 5b14c68bbc259403980dff21
+[DEBUG «4.6.2018 7:57:43» Express routes] -> User quit | id: 5b1426cdf03bac20bcdf4700
+[INFO «4.6.2018 7:57:53» Express routes] -> Authorization success | id: 5b1426cdf03bac20bcdf4700
+[INFO «4.6.2018 8:2:14» Express routes] -> File successfully removed | id: 5b14c7d0bc259403980dff28
+[INFO «4.6.2018 8:16:38» Express routes] -> File successfully removed | id: 5b14c7d0bc259403980dff27
+[INFO «4.6.2018 8:16:42» Express routes] -> File successfully removed | id: 5b14c7d0bc259403980dff26
+[INFO «4.6.2018 8:30:12» Express routes] -> File successfully removed | id: 5b14c7d0bc259403980dff25
+[INFO «4.6.2018 8:30:14» Express routes] -> File successfully removed | id: 5b14c7d0bc259403980dff23
+[INFO «4.6.2018 8:30:39» Express routes] -> File successfully removed | id: 5b14cc62bc259403980dff29
+[INFO «4.6.2018 8:30:40» Express routes] -> File successfully removed | id: 5b14c7d0bc259403980dff24
+[INFO «4.6.2018 8:30:56» Express routes] -> File successfully removed | id: 5b14ce8abc259403980dff2a
+[INFO «4.6.2018 8:30:58» Express routes] -> File successfully removed | id: 5b14ce8abc259403980dff2b
+[INFO «4.6.2018 8:30:59» Express routes] -> File successfully removed | id: 5b14ce8abc259403980dff2c
+[INFO «4.6.2018 8:31:0» Express routes] -> File successfully removed | id: 5b14ce8abc259403980dff2d
