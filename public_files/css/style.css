@@ -36,3 +36,15 @@ body, html{
 .ant-card-actions > li > span a {
     color: white !important;
 }
+
+
+.ant-card-meta-description {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.empty-text{
+	font-size: 13px;
+    color: darkgray;
+}
