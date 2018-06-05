@@ -75,3 +75,17 @@
 [INFO «4.6.2018 8:30:58» Express routes] -> File successfully removed | id: 5b14ce8abc259403980dff2b
 [INFO «4.6.2018 8:30:59» Express routes] -> File successfully removed | id: 5b14ce8abc259403980dff2c
 [INFO «4.6.2018 8:31:0» Express routes] -> File successfully removed | id: 5b14ce8abc259403980dff2d
+[INFO «4.6.2018 9:15:18» Express] -> Express server running on port 8080!
+[INFO «4.6.2018 9:15:24» Express routes] -> Authorization success | id: 5b14d79b01ab8d0a58f600d3
+[DEBUG «4.6.2018 9:15:31» Express routes] -> User quit | id: 5b14d79b01ab8d0a58f600d3
+[INFO «4.6.2018 9:16:49» Express routes] -> Authorization success | id: 5b14d79b01ab8d0a58f600d3
+[INFO «4.6.2018 9:17:58» Express routes] -> File successfully downloaded | id: 5b14d97e1fe3bd091086a844
+[INFO «4.6.2018 9:18:14» Express routes] -> File successfully removed | id: 5b14d98e1fe3bd091086a845
+[INFO «4.6.2018 9:18:17» Express routes] -> File successfully removed | id: 5b14d97e1fe3bd091086a844
+[INFO «4.6.2018 9:18:19» Express routes] -> File successfully removed | id: 5b14d9791fe3bd091086a843
+[INFO «4.6.2018 10:11:53» Express routes] -> File successfully removed | id: 5b14e6301fe3bd091086a847
+[INFO «4.6.2018 10:12:6» Express routes] -> File successfully removed | id: 5b14d9bb1fe3bd091086a846
+[INFO «4.6.2018 12:46:51» Express] -> Express server running on port 8080!
+[INFO «4.6.2018 12:46:59» Express routes] -> Authorization success | id: 5b14d79b01ab8d0a58f600d3
+[INFO «4.6.2018 12:47:27» Express routes] -> File successfully removed | id: 5b14e6511fe3bd091086a848
+[INFO «4.6.2018 12:47:58» Express routes] -> File successfully removed | id: 5b150ac5460de9111cb822fb

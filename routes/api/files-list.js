@@ -11,7 +11,6 @@ module.exports = (app, db) => {
 				.then(data => {
 					data.forEach(function(item, i, arr){
 						item.fileURL = undefined;
-						item.userID = undefined;
 					})
 					res.json(data);
 				})
@@ -20,7 +19,7 @@ module.exports = (app, db) => {
 				})
 		}	
 		else {
-			res.json({type: 'error', message: 'No success!'})
+			res.json({type: 'error', message: 'Access denied!'})
 		}
 	})
 }

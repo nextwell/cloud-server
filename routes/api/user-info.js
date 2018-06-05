@@ -16,7 +16,7 @@ module.exports = (app, db) => {
 				.catch(err => res.json({type: 'error', message: 'User error!'}));
 		}	
 		else {
-			res.json({type: 'error', message: 'No success!'})
+			res.json({type: 'error', message: 'Access denied'})
 		}
 	})
 }
