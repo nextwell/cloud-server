@@ -9,7 +9,16 @@ module.exports = (app, db) => {
 		if ( req.session.userData ){
 			res.redirect('/home');
 		} else{
-			res.render('sign-in', { title: 'login page'});
+			if ( req.query.err ){
+				let error;
+				switch (req.query.err){
+					case 'email': error = 'Подтвердите почту!'; break;;
+					case 'unknown': error = 'Неверный логин/пароль!'; break;;
+				}
+				if ( error ){
+					res.render('sign-in', { title: 'login page', error: error});
+				} else res.redirect('/login');
+			} else res.render('sign-in', { title: 'login page'});
 		}
 		
 	})
@@ -25,9 +34,9 @@ module.exports = (app, db) => {
 					Logger.write({source: "Express routes", action: "INFO", text: `Authorization success | id: ${data._id}`})
 					res.redirect('/home');
 				}
-				else res.send("Сначала подтвердите электронный адрес!")
+				else res.redirect("/login?err=email")
 			})
-			.catch(err => res.send("Ошибка, повторите попытку!"));
+			.catch(err => res.redirect("/login?err=unknown"));
 
 	})
 }
