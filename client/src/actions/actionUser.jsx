@@ -12,12 +12,6 @@ function receiveUser(json) {
 	}
 };
 
-function receiveError(json) {
-	return {
-		type: types.RECV_ERROR,
-		data: json
-	}
-};
 
 export function fetchUser(url) {
 	return function(dispatch) {
@@ -27,7 +21,7 @@ export function fetchUser(url) {
 				dispatch(receiveUser(response.data));
 			})
 			.catch(function(response){
-				dispatch(receiveUser(response.data));
+				console.log(response);
 			})
 	}
 };

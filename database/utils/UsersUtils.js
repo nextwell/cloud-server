@@ -41,12 +41,7 @@ module.exports.create = (data) => {
 // Update User status
 
 module.exports.update = (object) => {
-	Users.update( object,  { $set: { status: "true"} }, (err, result) => {
-		if ( err ) console.log(err);
-		else {
-			return true;
-		}
-	});
+	return Users.update( {_id: object._id },  { $set: object.action });
 }
 
 module.exports.get = (id) => {

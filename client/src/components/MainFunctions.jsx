@@ -1,6 +1,10 @@
 
 import React from 'react';
 
+import { fetchFiles } from './../actions/actionFiles.jsx';
+
+import { store } from './../store/store.jsx';
+
 import { Menu, Icon, Modal, Button, Upload, message } from 'antd';
 
 const Dragger = Upload.Dragger;
@@ -16,6 +20,8 @@ const props = {
     }
     if (status === 'done') {
       message.success(`${info.file.name} загружен успешно.`);
+      console.log(info);
+      store.dispatch(fetchFiles('/api/files'));
     } else if (status === 'error') {
       message.error(`${info.file.name} не загрузился, ошибка.`);
     }

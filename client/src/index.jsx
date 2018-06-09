@@ -18,6 +18,7 @@ let app = document.getElementById('root');
 
 function loadData() {
 	store.dispatch(fetchFiles('/api/files'));
+	store.dispatch(fetchUser('/api/user'));
 };
 
 

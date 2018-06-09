@@ -36,7 +36,7 @@ module.exports = (app, db) => {
 				     if(error){ console.log(error) }
 				     else{  }
 			     })
-				res.send("Подтвердите ваш электронный адрес!"); 
+				res.send("Подтвердите ваш электронный адрес!<br><a href='/login'>Войти</a>"); 
 			})
 			.catch( err => res.send("Ошибка, повторите попытку!"));
 

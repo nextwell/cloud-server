@@ -21,8 +21,8 @@ export default class Home extends React.Component{
 
 
 
-			    <Content style={{ margin: '24px 16px 0', height: 'auto', overflowY: 'auto' }}>
-			        <div style={{ padding: 24, background: '#fff', height: '100%' }}>
+			    <Content style={{ margin: '24px 16px 0', height: '100%', overflowY: 'auto' }}>
+			        <div style={{ padding: 24, background: '#fff', height: '100%', overflow: 'auto' }}>
 
 			        	<Row gutter={12}>
 
