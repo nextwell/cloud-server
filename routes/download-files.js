@@ -9,7 +9,7 @@ module.exports = (app, db) => {
 		db.File.search({_id: req.params.id })
 			.then(data => {
 				if ( req.session.userData ){
-					if ( data[0].userID == req.session.userData._id ){
+					if ( data[0].userID == req.session.userData._id || data[0].status === 'open' ){
 						res.download(path.resolve(data[0].fileURL));
 						Logger.write({source: "Express routes", action: "INFO", text: `File successfully downloaded | id: ${data[0]._id}`})
 					}
